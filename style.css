@@ -40,7 +40,7 @@ h1 {
   background-color: var(--clr-purple);
   color: #fff;
   padding: 40px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 20px 0;
 }
 
@@ -82,4 +82,7 @@ h1 {
 .tandc span {
   color: var(--clr-salmon);
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
 }
