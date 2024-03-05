@@ -1,0 +1,25 @@
+:root {
+  --clr-salmon: hsl(360, 89%, 72%);
+  --clr-green: hsl(151, 57%, 53%);
+  --clr-purple: hsl(248, 32%, 49%);
+  --clr-darkish: hsl(249, 11%, 26%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--clr-salmon);
+  background-image: url(/images/bg-intro-mobile.png);
+  background-repeat: repeat;
+  background-position: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+.heading-info {
+  text-align: center;
+  margin: 20px 5px;
+}
