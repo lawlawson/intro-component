@@ -6,13 +6,19 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   font-family: 'Poppins', sans-serif;
   background-color: var(--clr-salmon);
   background-image: url(/images/bg-intro-mobile.png);
   background-repeat: repeat;
   background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1440px;
+  width: 90%;
 }
 
 h1 {
@@ -21,5 +27,59 @@ h1 {
 
 .heading-info {
   text-align: center;
-  margin: 20px 5px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.heading-info p {
+  color: #fff;
+  padding: 20px 0;
+}
+
+.info-pill {
+  background-color: var(--clr-purple);
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.info-pill span {
+  font-weight: bold;
+}
+
+.signup-form {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.signup-form input {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.submit-button {
+  background-color: var(--clr-green);
+  color: #fff;
+  width: 90%;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.tandc p {
+  color: lightgrey;
+}
+
+.tandc span {
+  color: var(--clr-salmon);
+  font-weight: bold;
 }
