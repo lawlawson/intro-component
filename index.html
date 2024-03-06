@@ -30,13 +30,16 @@
         </div>
         <div class="signup-form">
           <form action="">
-            <label for="firstname"></label>
-            <input
-              type="text"
-              id="firstname"
-              name="firstname"
-              placeholder="First Name"
-              required />
+            <div class="firstname-error">
+              <label for="firstname"></label>
+              <input
+                type="text"
+                id="firstname"
+                name="firstname"
+                placeholder="First Name"
+                required />
+              <p>First Name cannot be empty</p>
+            </div>
             <label for="lastname"></label>
             <input
               type="text"

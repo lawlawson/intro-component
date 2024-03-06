@@ -106,6 +106,16 @@ h1 {
   font-weight: bold;
 }
 
+.firstname-error p {
+  text-align: right;
+  font-size: 11px;
+  color: var(--clr-salmon);
+  font-style: italic;
+  margin: 0;
+  width: 90%;
+  font-weight: bold;
+}
+
 @media (min-width: 1024px) {
   body {
     background-image: url(/images/bg-intro-desktop.png);
