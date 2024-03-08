@@ -139,6 +139,10 @@ label:after {
   font-weight: bold;
 }
 
+.alert {
+  display: none;
+}
+
 @media (min-width: 1024px) {
   body {
     background-image: url(/images/bg-intro-desktop.png);
