@@ -84,6 +84,22 @@ h1 {
   border: 1px solid var(--clr-purple);
 }
 
+label {
+  position: relative;
+}
+
+label:after {
+  content: '';
+  position: absolute;
+  left: 450px;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  background: url(/images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .submit-button {
   background-color: var(--clr-green);
   color: var(--clr-white);
