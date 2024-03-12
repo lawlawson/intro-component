@@ -95,7 +95,7 @@ label:after {
   top: 0;
   bottom: 0;
   width: 50px;
-  background: url(/images/icon-error.svg);
+  /* background: url(/images/icon-error.svg); */
   background-repeat: no-repeat;
   background-position: right;
 }
