@@ -89,6 +89,7 @@ label {
 }
 
 label:after {
+  display: none;
   content: '';
   position: absolute;
   left: 450px;
@@ -100,7 +101,7 @@ label:after {
   background-position: right;
 }
 
-.submit-button {
+.submit {
   background-color: var(--clr-green);
   color: var(--clr-white);
   width: 90%;
@@ -113,7 +114,7 @@ label:after {
   cursor: pointer;
 }
 
-.submit-button:hover {
+.submit:hover {
   background-color: hsl(154, 65%, 68%);
 }
 
@@ -126,15 +127,15 @@ label:after {
   font-weight: bold;
 }
 
-.field-group input {
+/* .field-group input {
   border: 2px solid var(--clr-salmon);
-}
+} */
 
 .firstname-error p,
 .lastname-error p,
 .email-error p,
 .password-error p {
-  display: block;
+  display: none;
   text-align: right;
   font-size: 11px;
   color: var(--clr-salmon);
@@ -144,6 +145,9 @@ label:after {
   font-weight: bold;
 }
 
+.alert {
+  display: none;
+}
 
 @media (min-width: 1024px) {
   body {
