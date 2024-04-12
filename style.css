@@ -142,13 +142,11 @@ label:after {
   margin: 0;
   width: 95%;
   font-weight: bold;
-  visibility: hidden;
+  display: none;
 }
 
-/* Label:after should also display block */
-
 .alert {
-  visibility: visible;
+  display: inline;
   background-color: red;
 }
 
