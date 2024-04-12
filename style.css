@@ -135,7 +135,6 @@ label:after {
 .lastname-error p,
 .email-error p,
 .password-error p {
-  display: none;
   text-align: right;
   font-size: 11px;
   color: var(--clr-salmon);
@@ -143,10 +142,15 @@ label:after {
   margin: 0;
   width: 95%;
   font-weight: bold;
+  visibility: hidden;
 }
 
+/* Label:after should also display block */
+
 .alert {
-  display: none;
+  visibility: visible;
+  border: 2px solid red;
+  background-color: green;
 }
 
 @media (min-width: 1024px) {
