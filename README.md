@@ -13,7 +13,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -29,6 +28,10 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/screenshot.png)
+
+#### Error handling
+
+![](./images/screenshot_error.png)
 
 ### Links
 
